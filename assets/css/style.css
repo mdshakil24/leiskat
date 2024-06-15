@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Arial';
+  font-family: "League Spartan", sans-serif;
+}
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
+input, button, textarea, select {
+  outline: none;
+}
+a:hover{
+  text-decoration: none;
+}
+a,span {
+  display: inline-block;
+  text-decoration: none;
+}
+ul,li{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+h1 {
+  font-weight: 800;
+  font-size: 80px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  line-height: 1;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  text-transform: inherit;
+  line-height: 1.3;
+}
+
+
+/*===== Start Header Nav Area Css =====*/
+.logo-nav-area {
+  background-color: #FFFFFF;
+  padding: 50px 0;
+}
+.logo-nav-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-nav-logo img {
+  width: 200px;
+  height: auto;
+}
+.header-nav-menu ul li a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #000000;
+  text-transform: capitalize;
+  margin-left: 15px;
+  transition: .3s;
+  letter-spacing: 1px;
+}
+.header-nav-menu ul li a:hover {
+  color: #FF0000;
+}
+
+
+
+
+.header-hero-area {
+  background-color: #000000;
+  padding: 175px 0;
+  position: relative;
+}
+.header-hero-area {
+
+}
+.header-hero-text {
+  max-width: 645px;
+  width: 100%;
+}
+.header-hero-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  line-height: 1.2;
+  margin: 25px 0;
+}
+
+.header-hero-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-hero-contact-left a {
+  font-weight: 800;
+  font-size: 40px;
+  color: #FF0000;
+  text-transform: inherit;
+  line-height: 1.2;
+}
+.header-hero-contact-left p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  max-width: 240px;
+  line-height: 1.2;
+}
+.header-hero-contact-right img {
+  width: 50px;
+  height: auto;
+  margin-left: 40px;
+}
+.header-hero-image-content img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 760px;
+  object-fit: cover;
+}
+/*===== End Header Nav Area Css =====*/
+
+/*===== Start Diagnostic Area Css =====*/
+
+.diagnostic-area {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+}
+
+
+/*===== End Diagnostic Area Css =====*/
