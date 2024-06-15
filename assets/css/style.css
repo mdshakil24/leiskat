@@ -243,7 +243,6 @@ p {
   font-size: 16px;
   color: #0F0E0E;
 }
-
 /*===== End About Us Area Css =====*/
 
 /*===== Stat Cars Area Css =====*/
@@ -252,6 +251,82 @@ p {
   height: auto;
 }
 
-
-
 /*===== End Cars Area Css =====*/
+
+/*===== Start Footer Area Css =====*/
+.footer-area {
+  background-color: #000000;
+  padding: 80px 0;
+}
+.footer-top-content h2 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.footer-top-content ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-top-content ul li img {
+  margin: 0 12px;
+}
+
+
+.footer-middle-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto;
+}
+.footer-middle-facebook img {
+  width: 50px;
+  height: auto;
+}
+.single-footer-middle {
+  margin-left: 65px;
+}
+.single-footer-middle li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.single-footer-middle h5,.single-footer-middle p {
+  font-weight: 800;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  line-height: normal;
+}
+.single-footer-middle h5 {
+  margin-bottom: 15px;
+}
+.single-footer-middle span,.single-footer-middle a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: inherit;
+  margin-left: 5px;
+  line-height: normal;
+}
+.single-footer-middle li img {
+  margin-right: 5px;
+}
+
+
+.footer-copyright {
+  text-align: center;
+}
+.footer-copyright img {
+  width: 130px;
+  height: auto;
+  margin-bottom: 8px;
+}
+.footer-copyright p {
+  color: #FFFFFF;
+}
+
+
+
+
+/*===== End Footer Area Css =====*/
